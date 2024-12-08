@@ -1,46 +1,11 @@
-# Fairness in Reinforcement Learning
+Bước 1: Thực hiện câu lệnh pip install -r requirements.txt trong terminal Miniconda
+Bước 2: Thực hiện cài đặt thêm thư viện cài ngoài do vấn đề lỗi thời.
 
-This repo contains the source code of paper "Achieving Long-term Fairness in Sequential
-Decision-Making Through Reinforcement Learning".
-
-
-
-## Quickstart
-
-1. Install the dependency packages.
-```
-pip install -r requirements.txt
-```
-
-2. Run the case studies.
-``` 
-cd lending / infectious
-python main.py
-```
-
-## Case Study
-
-1. Bank Loans
-
-The codes for this case study is in the folder "lending". 
-To run different algorithms, change variable MODEL in config.py.
-
-![lending](./assets/lending.png)
-
-
-2. Attention Allocation
-
-The codes for this case study is in the folder "allocation". 
-To run different algorithms, change variable MODEL in config.py.
-
-![attention](./assets/attention.png)
-
-
-3. Epidemic Control
-
-The codes for this case study is in the folder "infectious". 
-To run different algorithms, change variable MODEL in config.py.
-
-![infectious](./assets/infectious.png)
-
-
+Ví dụ: 
+Case Study: Infectious
+Quy trình thực hiện: 
+Vào thư mục \Fairness-in-RL-main-desktop\infectious\
+Thực hiện chạy file main.py
+Sau khi thực nghiệm:
+Kết quả nằm ở thư mục ..\results gồm 4 loại mô hình
+Kết quả tổng hợp (như được tác giả trình bày) nằm ở thư mục Summary
