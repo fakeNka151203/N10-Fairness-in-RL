@@ -1,0 +1,16 @@
+absl_py
+attrs
+geomloss
+gin_config
+matplotlib
+more_itertools
+networkx
+numpy
+pandas
+psutil
+recsim
+scikit_learn
+scipy
+simplejson
+sympy
+tqdm

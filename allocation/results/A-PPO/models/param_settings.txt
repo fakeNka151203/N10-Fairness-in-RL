@@ -1,0 +1,1 @@
+{'seed': 2023, 'window': 300, 'long-term': [1, 0.15, 0.15, 0.0, 0.0], 'short-term': [0.05, None, False], 'n_locations': 5, 'n_attention_units': 6, 'ep_timesteps': 1000, 'incident_rates': [8, 6, 4, 3, 1.5], 'dynamic_rate': 0.1, 'dynamic_increase_rates': [0.2, 0.26, 0.4, 0.6, 0.3]}
